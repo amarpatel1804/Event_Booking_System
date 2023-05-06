@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearheading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_weight="6.6"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/homechooseyouetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:fontFamily="@font/poppins_extrabold"
+            android:text="Choose Your"
+            android:textColor="@color/headingText"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/homeeventtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/homechooseyouetext"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="-15sp"
+            android:fontFamily="@font/poppins_extrabold"
+            android:text="Event"
+            android:textColor="@color/headingText"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearheading"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/birthdaybtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/homeeventtext"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="@dimen/_13sdp"
+                android:background="@color/white"
+                android:src="@drawable/birthdayimagebtn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/birthdaybtn"
+                android:layout_marginLeft="60sp"
+                android:layout_marginTop="-18sp"
+                android:fontFamily="@font/sanchez"
+                android:text="Birthday"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/marriagebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/birthdaybtn"
+                android:layout_marginLeft="230sp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@color/white"
+                android:src="@drawable/marriageimagebtn" />
+
+            <TextView
+                android:id="@+id/marriagetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/marriagebtn"
+                android:layout_marginLeft="260sp"
+                android:layout_marginTop="-18sp"
+                android:fontFamily="@font/sanchez"
+                android:text="Marriage"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/gatheringbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/marriagebtn"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@color/white"
+                android:src="@drawable/gatheringimagebtn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gatheringbtn"
+                android:layout_marginLeft="60sp"
+                android:layout_marginTop="-18sp"
+                android:fontFamily="@font/sanchez"
+                android:text="Gathering"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/gamefestbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gatheringbtn"
+                android:layout_marginLeft="230sp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@color/white"
+                android:src="@drawable/gamefestimagebtn" />
+
+            <TextView
+                android:id="@+id/gamefesttext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gamefestbtn"
+                android:layout_marginLeft="255sp"
+                android:layout_marginTop="-18sp"
+                android:fontFamily="@font/sanchez"
+                android:text="Gamefest"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gamefestbtn"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="15sp"
+            app:cardElevation="5sp">
+
+            <RelativeLayout
+                android:layout_width="@dimen/_240sdp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_background">
+
+                <ImageButton
+                    android:id="@+id/homeicon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="2sp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/homeicontrans" />
+
+                <ImageButton
+                    android:id="@+id/bookedevent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125sp"
+                    android:layout_marginTop="4sp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/bookeventicon" />
+
+                <ImageButton
+                    android:id="@+id/profileicon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="230sp"
+                    android:layout_marginTop="4sp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/profileicon" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_135sdp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/city_cell"
+    android:gravity="center"
+    android:id="@+id/cell">
+
+    <TextView
+        android:id="@+id/txtcity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahemdabad"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+</LinearLayout>

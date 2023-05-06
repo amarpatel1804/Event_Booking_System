@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="recycler_top_6">0dp</dimen>
+    <dimen name="recycler_bottom_6">70dp</dimen>
+    <dimen name="recycler_left_6">0dp</dimen>
+    <dimen name="recycler_right_6">0dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

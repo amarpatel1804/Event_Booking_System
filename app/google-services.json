@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "533718502962",
+    "project_id": "event-management-bb241",
+    "storage_bucket": "event-management-bb241.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533718502962:android:656701b6c208a69e9d762b",
+        "android_client_info": {
+          "package_name": "com.amarpatel.eventmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533718502962-fd7a8971dink45uqga935rmn1fsq2jru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amarpatel.eventmanagement",
+            "certificate_hash": "18521459d71e41f7e99d8c665a15e3c14e0deff1"
+          }
+        },
+        {
+          "client_id": "533718502962-ho42h4kllcldk23qm4tra47i1r47kepl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZuAoRHEfNJ93sLKxIFUpKBtUu6FEpPRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533718502962-ho42h4kllcldk23qm4tra47i1r47kepl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

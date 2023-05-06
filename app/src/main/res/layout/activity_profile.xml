@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ProfileActivity">
+
+    <TextView
+        android:id="@+id/txtprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="Profile"
+        android:textColor="@color/headingText"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Logout"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/registerimageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_85sdp"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/groupprofile_picture"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerimageView">
+
+        <TextView
+            android:id="@+id/txtproname"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Jay Parsana"
+            android:textSize="18sp"
+            android:paddingStart="15dp"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/txtproemail"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background"
+            android:fontFamily="@font/poppins_regular"
+            android:text="jayparsana30@gmail.com"
+            android:textSize="18sp"
+            android:paddingStart="15dp"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/txtprophone"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Mobile No."
+            android:textSize="18sp"
+            android:paddingStart="15dp"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

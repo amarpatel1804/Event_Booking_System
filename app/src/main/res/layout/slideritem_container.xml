@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.makeramen.roundedimageview.RoundedImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/imageview"
+    app:riv_corner_radius="8dp"
+    android:adjustViewBounds="true"
+    android:background="@color/white"
+    android:clipToOutline="false">
+
+</com.makeramen.roundedimageview.RoundedImageView>
